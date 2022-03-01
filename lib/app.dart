@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_news/polls/polls_page.dart';
-
+import 'package:flutter_news/bunny_search_animated_searchbar/pages/search_page.dart';
 
 class App extends StatelessWidget {
   const App({Key? key}) : super(key: key);
@@ -10,7 +9,7 @@ class App extends StatelessWidget {
     return const MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: PollsPage(),
+      home: SearchPage(),
     );
   }
 }
